@@ -1,0 +1,3 @@
+<button class="btn btn-primary" (click)="toggleDetails()">Display Details</button>
+<p *ngIf="display">I eat bananas</p>
+<div class="alert" [ngClass]="{'alert-info': i>=4}" *ngFor="let log of logs; let i = index;" >{{ log }}</div>
