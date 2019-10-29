@@ -2,3 +2,4 @@
 .DS_Store
 .angulardoc.json
 node_modules/
+package-lock.json
